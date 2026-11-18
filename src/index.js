@@ -1,0 +1,10 @@
+export { default as TamachimboModule } from './TamachimboModule';
+export { TamachimboNavigator } from './navigation/TamachimboNavigator';
+export { PetProvider, usePet } from './context/PetContext';
+export { default as TamachimboCharacter } from './components/TamachimboCharacter';
+export { default as PixelIcon } from './components/PixelIcon';
+export { default as PixelCard } from './components/PixelCard';
+export { default as PixelButton } from './components/PixelButton';
+export { default as StatusBar } from './components/StatusBar';
+export { default as useShakeDetector } from './hooks/useShakeDetector';
+export { COLORS } from './theme';
